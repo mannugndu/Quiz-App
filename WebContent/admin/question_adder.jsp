@@ -1,6 +1,7 @@
 <%
 if(session.getAttribute("admin_login")!="active")
 {
+	
 	response.sendRedirect("admin_login.jsp");
 }
 %>

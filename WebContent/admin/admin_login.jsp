@@ -12,13 +12,13 @@
 <body>
 <form name="supported_form" id="supported_form" action="question_adder_supported_form">
 
+<!-- <input type="submit"> -->
 </form>
 
 
 
 <script>
-while(true)
-	{
+
 		var user=prompt("please enter the username");
 		var password=prompt("enter the password");
 		if(user=="system"&&password=="system")
@@ -29,7 +29,7 @@ while(true)
 			{
 			alert("username or the password is wrongly entered");
 			}
-	}
+	
 </script>
 
 
